@@ -2,3 +2,9 @@ sudo: required
 language: node_js
 node_js:
   - "stable"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "7cb05821-4d03-49e9-9c60-ba837546e80b"
+  app:
+    master: agilidadCI
