@@ -8,4 +8,4 @@ deploy:
   api_key:
     secure: "7cb05821-4d03-49e9-9c60-ba837546e80b"
   app:
-    master: agile-brook-82400
+    master: agilidad-ci
