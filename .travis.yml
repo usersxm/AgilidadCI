@@ -9,3 +9,4 @@ deploy:
     secure: "7cb05821-4d03-49e9-9c60-ba837546e80b"
   app:
     master: agilidad-ci
+  run: "heroku config:add ROOT_URL=http://agilidad-ci.herokuapp.com"
