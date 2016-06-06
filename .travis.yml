@@ -9,4 +9,3 @@ deploy:
     secure: $API_KEYPHRASE
   app:
     master: agilidad-ci
-  run: "heroku config:add ROOT_URL=http://agilidad-ci.herokuapp.com"
